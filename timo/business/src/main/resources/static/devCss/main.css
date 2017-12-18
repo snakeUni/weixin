@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    background-color: #e1e1e1;
+}
+body:before{
+    content: "";
+    display: table;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+ul,li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.display-block {
+    display: block;
+}
+.text-center {
+    text-align: center;
+}
+.font-md-18 {
+    font-size: 18px;
+}
+.font-md-16 {
+    font-size: 16px;
+}
+.font-md-20 {
+    font-size: 20px;
+}
+.font-md-25 {
+    font-size: 25px;
+}
+.font-md-30 {
+    font-size: 30px;
+}
+.main-color {
+    color: #7AC0C7;
+}
+.font-lg-50 {
+    font-size: 50px;
+}
+.white {
+    color: #fff;
+}
+.black {
+    color: #000;
+}
+.color1 {
+    color: #ccc;
+}
+.pd-xs {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pd-md-bottom {
+    padding-bottom: 20px;
+}
+.pd-md-top {
+    padding-top: 20px;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.mr-md-top {
+    margin-top: 20px;
+}
+.line-height-md {
+    line-height: 20px;
+}
+.container:before, .container:after {
+    display: table;
+    content: "";
+}
+/*我的账户页面*/
+.account-money {
+    width: 90%;
+    margin: auto;
+}
+.account-button .money-button {
+    padding: 10px 60px;
+    background-color: #7AC0C7;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.account-button div {
+    line-height: 42px;
+}
+.person-image {
+    width: 64px;
+    height: 64px;
+    border-radius: 40px;
+}
+.col-xs-4 {
+    width: 33.3%;
+    float: left;
+}
+.clearfix:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+/*账户绑定*/
+.account-bind {
+    margin-top: 30%;
+}
+.account-bind .account-info {
+    width: 80%;
+    margin: 20px auto 0 auto;
+}
+.account-bind .account-info span {
+    font-size: 18px;
+}
+.account-bind .account-info .input {
+    width:70%;
+    height:40px;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 0 0 0 10px;
+}
+.account-bind .account-info .input:focus {
+    background-color: #fff;
+    border: 0;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: #fff !important;
+    border: 0;
+}
+.account-bind .title {
+    font-size: 24px;
+    color: #7AC0C7;
+}
+.account-bind #submit {
+    padding: 10px 50px;
+    background-color: #7AC0C7;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/*查单词*/
+.find-word .find-word-content {
+    margin-top: 20%;
+}
+.find-word .search-input {
+    width: 90%;
+    margin: auto;
+}
+.find-word .find-word-content input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.find-word .search {
+    padding: 10px 40px;
+    font-size: 18px;
+    background-color: #7AC0C7;
+    color: #ffffff;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.find-word .word-content {
+    height: 330px;
+    width: 90%;
+    margin: 20px auto 20px auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: scroll;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.find-word .word-content #target-word {
+    color: #7AC0C7;
+    font-size: 30px;
+}
+.word-content #english {
+    margin-left: 20px;
+}
+.word-content #word-explain {
+    font-size: 16px;
+    color: #ccc;
+}
+.word-content .word-sentence-title {
+    background-color: #7AC0C7;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.word-content .word-sentence  .sentence-item {
+    border-bottom: 1px solid #7AC0C7;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.word-content .word-sentence .sentence-item:last-child {
+    border: 0;
+}
+
+/*我的打卡*/
+.day-sentence:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.day-sentence {
+    width: 80%;
+    margin: auto;
+}
+.day-sentence .company-icon{
+    margin-top: 20px;
+    float: right;
+}
+.sentence-bottom {
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px
+}
+
+/*任务列表*/
+.task .task-list-item {
+    width: 90%;
+    margin:20px  auto auto auto;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.task_list_detail .task-list-detail-item {
+    position: relative;
+    width: 90%;
+    margin:20px  auto auto auto;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.task_list_detail:before, .task_list_detail:after {
+    content: "";
+    display: table;
+}
+
+/*列表详情*/
+.task-detail-info .info-head {
+    position: fixed;
+    left:0;
+    right: 0;
+    top: 0;
+    background: url("/image/sentence/1.JPG")  no-repeat;
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+}
+.task-detail-info .info-title {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.task-detail-info .info-content {
+    width: 90%;
+    margin: 260px auto auto auto;
+}
+.task-detail-info .info-condition {
+    margin-top: 15px;
+    width: 100%;
+}
+.task-detail-info .info-head .attend button {
+    width: 80%;
+    padding: 5px 0;
+    border-radius: 5px;
+    background-color: #7AC0C7;
+    color: #fff;
+    font-size: 20px;
+}
+.task-detail-info .info-content .task-task {
+    border-bottom: 1px solid gray;
+}
+
+/*打卡通知*/

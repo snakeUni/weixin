@@ -59,9 +59,16 @@ ul,li{
 .color1 {
     color: #ccc;
 }
+.bg-white {
+    background-color: #fff;
+}
 .pd-xs {
     padding-top: 5px;
     padding-bottom: 5px;
+}
+.pd-xs-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .pd-md-bottom {
     padding-bottom: 20px;
@@ -293,3 +300,61 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 }
 
 /*打卡通知*/
+.alert-notification-box {
+    width: 80%;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 5px;
+    display: none;
+}
+.alert-notification-box .addition {
+    background: url("/image/icon/addition.png") center no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.alert-notification-box .offline {
+    background: url("/image/icon/offline.png") center no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.alert-notification-box .alert-box-content {
+    border-bottom: 1px solid #e1e1e1;
+}
+.alert-notification-box .alert-box-content #time {
+    width: 60%;
+    font-size: 20px;
+    display: inline-block;
+}
+.punch-notification .notification {
+    margin: 40px 20px;
+}
+.punch-notification .open-circle {
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #c1c1c1;
+    vertical-align: text-top;
+    position: relative;
+}
+.punch-notification .open-circle .circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    float: left;
+    background-color: #fff;
+}
+.punch-notification .open-circle.selected {
+    background-color: #7AC0C7;
+}
+.punch-notification .open-circle.selected .circle {
+    float: right;
+}

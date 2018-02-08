@@ -1,0 +1,7 @@
+<view class='container'>
+    <view class="search">
+        <input type='text' bindinput='bindKeyInput' class="inputSearch" placeholder='输入关键字或者题目' confirm-type='search'></input>
+        <icon type='search' bindtap='getInputValue' class="iconSearch"></icon>
+    </view>
+    <view class="answer">{{answer}}</view>
+</view>

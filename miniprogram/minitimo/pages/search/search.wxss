@@ -1,0 +1,26 @@
+/** wxss **/
+/** 修改默认的navigator点击态 **/
+.inputSearch {
+	border: 1px solid grey;	
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 30px;
+	width:100%;
+}
+.search {
+	display: flex;
+	flex-direction: row;
+	width:80%;
+	position: relative;
+}
+.iconSearch {
+	position: absolute;
+	right: 5px;
+	top: .6rem;
+}
+.answer {
+	margin-top: 1rem;
+	width: 80%;
+}
